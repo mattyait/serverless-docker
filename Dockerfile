@@ -18,3 +18,5 @@ RUN pip install awscli
 
 # Install Serverless
 RUN npm install -g serverless
+
+WORKDIR /mnt
