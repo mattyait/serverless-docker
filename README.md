@@ -1,3 +1,5 @@
+[![](https://dockerbuildbadges.quelltext.eu/status.svg?organization=niccokunzmann&repository=dockerhub-build-status-image)](https://hub.docker.com/r/mattyait/serverless-docker/builds/)  
+
 # serverless-docker
 Dockerfile for serverless framework
 
