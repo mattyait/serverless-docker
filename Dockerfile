@@ -1,7 +1,7 @@
 FROM node:alpine
 LABEL maintainer="<Matty>"
 
-Run npm install -g npm@latest
+#RUN npm install -g npm@latest
 
 # Adding bash in alpine
 RUN apk update && apk add bash
