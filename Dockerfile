@@ -18,5 +18,5 @@ RUN pip install awscli
 
 # Install Serverless
 RUN npm install -g serverless
-
+RUN export PATH=$PATH:/usr/local/bin/serverless
 WORKDIR /mnt
