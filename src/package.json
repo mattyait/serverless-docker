@@ -1,0 +1,7 @@
+{
+  "name": "aws-lambda-demo",
+  "version": "1.0.0",
+  "description": "Serverless example to demonstrate a Unicorn picture from lambda",
+  "author": "Mahattam",
+  "license": "MIT"
+}

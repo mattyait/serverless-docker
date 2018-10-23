@@ -1,0 +1,20 @@
+service: serverless-demo
+custom:
+  defaultStage: dev
+  currentStage: ${opt:stage, self:custom.defaultStage}
+
+provider:
+  name: aws
+  runtime: python3.6
+  stage: ${self:custom.currentStage}
+  region: ${file(config.yml):aws_region}
+  role: ${file(config.yml):role}
+
+functions:
+  demo_function:
+    handler: handler.endpoint
+    events:
+      - http:
+          path: ping
+          method: get
+
