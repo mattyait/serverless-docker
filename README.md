@@ -33,3 +33,7 @@ Setup the AWS profile
 Run the serverless to deploy lambda functions
 
     serverless deploy
+
+> Sample Demo
+
+<p align="center"><img src="/img/demo.gif?raw=true"/></p>
