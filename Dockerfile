@@ -17,6 +17,8 @@ RUN apk add --no-cache python && \
 RUN pip install awscli
 
 # Install Serverless
-RUN npm install -g serverless
-#RUN export PATH=$PATH:/usr/local/bin/serverless
+RUN npm config set strict-ssl false && \
+    npm install -g serverless@1.29.2 && \
+    export PATH=$PATH:/usr/local/bin/serverless
+
 WORKDIR /mnt
